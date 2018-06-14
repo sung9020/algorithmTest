@@ -15,7 +15,7 @@ public class test2 {
             nation = scanner.next();
 
             if(!nation.equalsIgnoreCase("end"))
-            inputs.add(nation);
+            inputs.add(nation.toLowerCase());
             else break;
         }
 
